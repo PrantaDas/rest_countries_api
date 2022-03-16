@@ -17,7 +17,7 @@ const displayCountries=(countries)=>{
 const getCountriesHTML=(country)=>{
     return `
     <div class="country">
-    <h2 class="text-center p-2">$country.name.common} </h2>
+    <h2 class="text-center p-2">${country.name.common} </h2>
     <img src="${country.flags.png}">
     </div>
     `;
