@@ -1,0 +1,18 @@
+*{
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+}
+.countries{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-gap: 30px;
+}
+.country{
+    width: 400px;
+    height: 350px;
+    padding: 20px 25px;
+    border: 5px solid black;
+    border-radius: 25px;
+    background-color: aquamarine;
+}
